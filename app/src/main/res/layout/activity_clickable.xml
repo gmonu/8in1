@@ -13,7 +13,7 @@
             android:layout_height="wrap_content"
             android:text="@string/textView_prompt"
             android:layout_centerHorizontal="true"
-
+            android:layout_marginTop="5dp"
             android:textSize="20sp"
             android:textColor="@color/IndianRed"
             android:background="@drawable/rounded_button"/>
