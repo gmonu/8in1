@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">10in1</string>
+    <string name="app_name">8in1</string>
     <string name="textView_prompt">Pick an animal:</string>
     <string name="dog">Dog</string>
     <string name="cat">Cat</string>
