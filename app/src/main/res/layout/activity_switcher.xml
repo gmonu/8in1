@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_switcher">
+
+    <Button
+        android:id="@+id/first"
+        android:layout_width="239dp"
+        android:layout_height="98dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="526dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/shortTag"
+        android:drawablePadding="2dp"
+        android:text="Go to next Activity"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="175dp"
+        android:text="This is First Activity"
+        android:textColor="@color/RosyBrown"
+        android:textSize="30sp" />
+
+</RelativeLayout>

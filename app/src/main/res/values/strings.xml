@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">10in1</string>
+    <string name="textView_prompt">Pick an animal:</string>
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="pig">Pig</string>
+    <string name="horse">Horse</string>
+    <string name="elephant">Elephant</string>
+    <string name="toastMessage">Your choice is</string>
+    <string-array name="animalsArray">
+        <item>@string/dog</item>
+        <item>@string/cat</item>
+        <item>@string/pig</item>
+        <item>@string/horse</item>
+        <item>@string/elephant</item>
+    </string-array>
+</resources>

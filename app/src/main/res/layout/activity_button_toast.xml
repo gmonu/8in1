@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".button_toast">
+
+    <Button
+        android:id="@+id/button_blueInvisible"
+        android:layout_width="271dp"
+        android:layout_height="71dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="231dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/IndianRed"
+        android:onClick="toDo"
+        android:text="Click this Button to hide this button"
+        android:textAllCaps="false"
+        android:textColor="@color/shortTag"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button_pinkPanther"
+        android:layout_width="204dp"
+        android:layout_height="67dp"
+        android:layout_below="@id/button_blueInvisible"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/CadetBlue"
+        android:onClick="toDo"
+        android:text="Toast Button"
+        android:textColor="@color/shortTag"
+        android:textSize="20sp" />
+
+</RelativeLayout>
