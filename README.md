@@ -1,8 +1,9 @@
 # 8in1 (An Android App)
-  An android Application, which is having total 8 apps features. This app is build on Android Studio, using Java: Language.
+  An android Application, which is having total 8 apps features. This app is build on Android Studio, using Java: Language for backend. And used C+XML for front end Development   (UI) design.
   
 ## App Features
    - Splash Screen
+   
     
         ![Spalash Demo](Gif/splash.gif)
         
